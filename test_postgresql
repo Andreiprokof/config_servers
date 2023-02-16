@@ -1,0 +1,56 @@
+#!/bin/bash
+#Включение отладки bash:
+
+#запрос пароля для sudo
+echo "введите логин от учетной записи"
+read -a USER
+echo "Введите пароль от учетной записи"
+read -a PASSWD
+
+echo "Программа выполяется.."
+
+
+#Файл логов:
+LOG="test_postgres.log"
+
+#Список хостов:
+HOSTS_B="192.168.1.171"
+HOSTS_C="192.168.1.172"
+
+time=$(date +%s)
+
+#Команды для expect:
+COMM="
+
+#подключаемся к удаленному серверу
+spawn ssh -o IdentitiesOnly=yes $USER@$HOSTS_C 
+expect \"*(yes/no?*\" {send \"yes\r\"}
+expect \"Password:\"
+send \"$PASSWD\r\"
+
+
+#установка клиента postgresql
+expect \"*>\"
+send \"sudo apt install postgresql-client-14 -y\r\"
+expect \"*password*\" {send \"$PASSWD\r\"}
+expect \"*>\"
+send \"psql -Udeveloper -h$HOSTS_B  -dmyapp\r\"
+expect \"Password for user*\" {send \"12345\r\"}
+expect \"=>\"
+send \"select version ();\r\"
+
+
+
+#Завершение выполнения expect:
+expect eof
+"
+
+#Запуск expect с набором команд:
+expect -c "$COMM" >> $LOG
+
+echo "время затрачено:"
+echo $(($(date +%s)-$time))
+
+#Вывод разделителя:
+echo ========================================================================= >> $LOG
+

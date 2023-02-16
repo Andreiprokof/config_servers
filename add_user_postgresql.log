@@ -1,0 +1,409 @@
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 18:34:09 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission denied
+createdb: error: database creation failed: ERROR:  database "myauth" already exists
+could not change directory to "/home/andreiprokof": Permission denied
+createdb: error: database creation failed: ERROR:  database "myapp" already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 18:35:00 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission denied
+createdb: error: database creation failed: ERROR:  database "myapp" already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 18:35:49 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission deniedcould not change directory to "/home/andreiprokof": Permission denied
+
+=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 18:42:24 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission denied
+createdb: error: database creation failed: ERROR:  database "myauth" already exists
+could not change directory to "/home/andreiprokof": Permission denied
+createdb: error: database creation failed: ERROR:  database "myapp" already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 19:50:29 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 19:52:10 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 19:53:08 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission deniedcould not change directory to "/home/andreiprokof": Permission denied
+
+sudo su - postgres -c 'createuser developer'
+7808228
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo su - postgres -c 'createuser developer'
+[?2004l7808228
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 19:54:28 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission denied
+could not change directory to "/home/andreiprokof": Permission deniedcreatedb: error: database creation failed: ERROR:  database "myapp" already exists
+
+createdb: error: database creation failed: ERROR:  database "myauth" already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo su - postgres -c 'createuser developer'
+[?2004l7808228
+createuser: error: creation of new role failed: ERROR:  role "developer" already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 05:03:15 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission denied
+could not change directory to "/home/andreiprokof": Permission denied
+=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 06:22:47 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission deniedcould not change directory to "/home/andreiprokof": Permission denied
+createdb: error: database creation failed: ERROR:  database "myapp" already exists
+
+createdb: error: database creation failed: ERROR:  database "myauth" already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 06:24:23 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission deniedcould not change directory to "/home/andreiprokof": Permission denied
+
+=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 06:29:02 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission denied
+createdb: error: database creation failed: ERROR:  database "myapp" already exists
+could not change directory to "/home/andreiprokof": Permission denied
+createdb: error: database creation failed: ERROR:  database "myauth" already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 06:33:46 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission deniedcould not change directory to "/home/andreiprokof": Permission denied
+
+=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 06:35:17 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission deniedcould not change directory to "/home/andreiprokof": Permission denied
+
+createdb: error: database creation failed: ERROR:  database "myapp" already exists
+createdb: error: database creation failed: ERROR:  database "myauth" already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 06:38:25 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres psql
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission denied
+psql (14.6 (Ubuntu 14.6-0ubuntu0.22.04.1))
+Type "help" for help.
+
+[?2004hpostgres=# create user developer PASSWORD '12345';
+[?2004lCREATE ROLE
+[?2004hpostgres=# =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 07:19:31 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission denied
+could not change directory to "/home/andreiprokof": Permission denied
+=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 07:20:36 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission deniedcould not change directory to "/home/andreiprokof": Permission denied
+
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 08:11:01 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission deniedcould not change directory to "/home/andreiprokof": Permission denied
+
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 08:34:09 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission deniedcould not change directory to "/home/andreiprokof": Permission denied
+createdb: error: database creation failed: ERROR:  database "myapp" already exists
+
+createdb: error: database creation failed: ERROR:  database "myauth" already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 08:51:18 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission deniedcould not change directory to "/home/andreiprokof": Permission denied
+
+=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 08:53:16 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission deniedcould not change directory to "/home/andreiprokof": Permission denied
+
+createdb: error: database creation failed: ERROR:  database "myapp" already exists
+createdb: error: database creation failed: ERROR:  database "myauth" already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 10:33:02 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 10:36:42 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres createdb myapp | sudo -u postgres createdb myauth
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission deniedcould not change directory to "/home/andreiprokof": Permission denied
+createdb: error: database creation failed: ERROR:  database "myauth" already exists
+
+createdb: error: database creation failed: ERROR:  database "myapp" already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================

@@ -1,0 +1,57 @@
+#!/bin/bash
+#Включение отладки bash:
+
+#запрос пароля для sudo
+echo "введите логин от учетной записи"
+read -a USER
+echo "Введите пароль от учетной записи"
+read -a PASSWD
+
+echo "Программа выполяется.."
+
+
+
+#Файл логов:
+LOG="add_user.log"
+
+#Список хостов:
+HOSTS_B="192.168.1.171"
+HOSTS_C="192.168.1.172"
+
+time=$(date +%s)
+
+#Команды для expect:
+COMM="
+
+#Время ожидание expect
+set timeout 1
+
+#подключаемся к удаленному серверу
+spawn ssh $USER@$HOSTS_B
+
+#добавление пользователя:
+expect \"*>\"
+send \"sudo useradd DevOps\r\"
+expect \"*password*\" {send \"$PASSWD\r\"}
+expect \"*>\"
+
+#настройка sudo без пароля
+send \"echo 'DevOps ALL=(ALL:ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/DevOps\r\"
+expect \"*>\"
+send \"sudo apt update\r\"
+expect \"*password*\" {send \"$PASSWD\r\"}
+
+
+#Завершение выполнения expect:
+expect eof
+"
+
+#Запуск expect с набором команд:
+expect -c "$COMM" >> $LOG
+
+echo "затраченно времени:"
+echo $(($(date +%s)-$time))
+
+#Вывод разделителя:
+echo ========================================================================= >> $LOG
+

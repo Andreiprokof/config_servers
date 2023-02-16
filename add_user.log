@@ -1,0 +1,259 @@
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 15:10:28 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo useradd DevOps
+[?2004l[sudo] password for andreiprokof: 
+useradd: user 'DevOps' already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ echo 'DevOps ALL=(ALL:ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/DevOps
+[?2004lDevOps ALL=(ALL:ALL) NOPASSWD: ALL
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 15:19:22 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo useradd DevOps
+[?2004l[sudo] password for andreiprokof: 
+useradd: user 'DevOps' already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ echo 'DevOps ALL=(ALL:ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/DevOps
+[?2004lDevOps ALL=(ALL:ALL) NOPASSWD: ALL
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 18:12:06 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo useradd DevOps
+[?2004l[sudo] password for andreiprokof: 
+useradd: user 'DevOps' already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ echo 'DevOps ALL=(ALL:ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/DevOps
+[?2004lDevOps ALL=(ALL:ALL) NOPASSWD: ALL
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 18:16:13 2023 from 192.168.1.157
+sudo useradd DevOps
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo useradd DevOps
+[?2004l[sudo] password for andreiprokof: 
+useradd: user 'DevOps' already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ echo 'DevOps ALL=(ALL:ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/DevOps
+[?2004lDevOps ALL=(ALL:ALL) NOPASSWD: ALL
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo apt update
+[?2004l[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Working][0m            Get:2 http://ru.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+[33m0% [2 InRelease 13.7 kB/119 kB 12%][0m[33m0% [2 InRelease 85.0 kB/119 kB 72%][0m[33m                                   0% [Waiting for headers][0m                        Get:3 http://ru.archive.ubuntu.com/ubuntu jammy-backports InRelease [107 kB]
+[33m0% [3 InRelease 1079 B/107 kB 1%][0m[33m0% [3 InRelease 64.0 kB/107 kB 60%][0m[33m                                   0% [Waiting for headers][0m                        Get:4 http://ru.archive.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+[33m0% [4 InRelease 1079 B/110 kB 1%][0m[33m                                 0% [Working][0m[33m0% [Working][0m[33m100% [Working][0m              Fetched 336 kB in 1s (296 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 6%Reading package lists... 6%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 52%=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 18:43:34 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo useradd DevOps
+[?2004l[sudo] password for andreiprokof: 
+useradd: user 'DevOps' already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ echo 'DevOps ALL=(ALL:ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/DevOps
+[?2004lDevOps ALL=(ALL:ALL) NOPASSWD: ALL
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo apt update
+[?2004l[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Working][0m            Get:2 http://ru.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+[33m0% [2 InRelease 9467 B/119 kB 8%][0m[33m                                 0% [Working][0m[33m0% [Waiting for headers][0m                        Get:3 http://ru.archive.ubuntu.com/ubuntu jammy-backports InRelease [107 kB]
+[33m0% [3 InRelease 0 B/107 kB 0%][0m[33m0% [3 InRelease 61.2 kB/107 kB 57%][0m[33m                                   0% [Working][0m            Get:4 http://ru.archive.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+[33m0% [4 InRelease 20.7 kB/110 kB 19%][0m[33m                                   0% [Working][0m            Get:5 http://ru.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [886 kB]
+[33m0% [5 Packages 1079 B/886 kB 0%][0m[33m0% [5 Packages 61.2 kB/886 kB 7%][0m[33m32% [5 Packages 221 kB/886 kB 25%][0m=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 19:45:20 2023 from 192.168.1.157
+sudo useradd DevOps
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo useradd DevOps
+[?2004l[sudo] password for andreiprokof: 
+useradd: user 'DevOps' already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ echo 'DevOps ALL=(ALL:ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/DevOps
+[?2004lDevOps ALL=(ALL:ALL) NOPASSWD: ALL
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo apt update
+[?2004l[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Working][0m            Get:2 http://ru.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+[33m0% [2 InRelease 119 kB/119 kB 100%][0m[33m                                   0% [Working][0m            Get:3 http://ru.archive.ubuntu.com/ubuntu jammy-backports InRelease [107 kB]
+[33m0% [3 InRelease 9467 B/107 kB 9%][0m[33m0% [3 InRelease 40.2 kB/107 kB 38%][0m[33m                                   0% [Working][0m            Get:4 http://ru.archive.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+[33m0% [4 InRelease 110 kB/110 kB 100%][0m[33m                                   0% [Working][0m[33m0% [Working][0m            Get:5 http://ru.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [886 kB]
+[33m0% [5 Packages 10.9 kB/886 kB 1%][0m[33m0% [5 Packages 64.0 kB/886 kB 7%][0m[33m37% [5 Packages 446 kB/886 kB 50%][0m[33m                                  48% [Working][0m[33m48% [5 Packages store 0 B] [Waiting for headers][0m                                                Get:6 http://ru.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [805 kB]
+[33m48% [5 Packages store 0 B] [6 Packages 9467 B/805 kB 1%][0m[33m                                                        54% [6 Packages 221 kB/805 kB 27%][0m[33m                                  68% [Working][0m[33m68% [6 Packages store 0 B][0m                          Get:7 http://ru.archive.ubuntu.com/ubuntu jammy-security/main amd64 Packages [624 kB]
+[33m68% [6 Packages store 0 B] [7 Packages 0 B/624 kB 0%][0m[33m                                                     75% [7 Packages 284 kB/624 kB 46%][0m[33m                                  84% [Working][0m[33m84% [7 Packages store 0 B][0m                          Get:8 http://ru.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [639 kB]
+[33m84% [7 Packages store 0 B] [8 Packages 0 B/639 kB 0%][0m[33m                                                     =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 19:46:14 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo useradd DevOps
+[?2004l[sudo] password for andreiprokof: 
+useradd: user 'DevOps' already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ echo 'DevOps ALL=(ALL:ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/DevOps
+[?2004lDevOps ALL=(ALL:ALL) NOPASSWD: ALL
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo apt update
+[?2004l[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Working][0m            Get:2 http://ru.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+[33m0% [2 InRelease 1079 B/119 kB 1%][0m[33m0% [2 InRelease 91.9 kB/119 kB 77%][0m[33m                                   0% [Waiting for headers][0m                        Get:3 http://ru.archive.ubuntu.com/ubuntu jammy-backports InRelease [107 kB]
+[33m0% [3 InRelease 10.9 kB/107 kB 10%][0m[33m0% [3 InRelease 62.6 kB/107 kB 59%][0m[33m                                   0% [Working][0m            Get:4 http://ru.archive.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+[33m0% [4 InRelease 15.1 kB/110 kB 14%][0m[33m                                   0% [Working][0m            Get:5 http://ru.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [886 kB]
+[33m0% [5 Packages 886 kB][0m[33m                      0% [Working][0m            Get:6 http://ru.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [805 kB]
+[33m0% [Working][0m[33m0% [5 Packages store 4716 kB][0m[33m0% [5 Packages store 4716 kB][0m[33m                             0% [Working][0m[33m0% [6 Packages store 4936 kB][0m[33m                             0% [Working][0m[33m69% [Working][0m             Get:7 http://ru.archive.ubuntu.com/ubuntu jammy-security/main amd64 Packages [624 kB]
+[33m84% [Working][0m[33m84% [7 Packages store 3336 kB][0m                              Get:8 http://ru.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [639 kB]
+[33m84% [7 Packages store 3336 kB] [8 Packages 1079 B/639 kB 0%][0m[33m                                                            86% [8 Packages 71.0 kB/639 kB 11%][0m[33m                                   100% [Working][0m[33m100% [8 Packages store 0 B][0m[33m                           100% [Working][0m              Fetched 975 kB in 2s (537 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 19:50:09 2023 from 192.168.1.157
+sudo useradd DevOps
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo useradd DevOps
+[?2004l[sudo] password for andreiprokof: 
+useradd: user 'DevOps' already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ echo 'DevOps ALL=(ALL:ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/DevOps
+[?2004lDevOps ALL=(ALL:ALL) NOPASSWD: ALL
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo apt update
+[?2004l[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Working][0m            Hit:2 http://ru.archive.ubuntu.com/ubuntu jammy-updates InRelease
+[33m0% [Waiting for headers][0m                        Get:3 http://ru.archive.ubuntu.com/ubuntu jammy-backports InRelease [107 kB]
+[33m0% [3 InRelease 1079 B/107 kB 1%][0m[33m0% [3 InRelease 94.7 kB/107 kB 89%][0m[33m                                   0% [Working][0m            Hit:4 http://ru.archive.ubuntu.com/ubuntu jammy-security InRelease
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m100% [Working][0m              Fetched 107 kB in 1s (169 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 6%Reading package lists... 6%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 52%Reading package lists... 52%Reading package lists... 73%Reading package lists... 73%Reading package lists... 73%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 77%Reading package lists... 77%Reading package lists... 79%Reading package lists... 79%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 87%Reading package lists... 87%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 90%Reading package lists... 90%Reading package lists... 92%Reading package lists... 92%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 05:02:36 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo useradd DevOps
+[?2004l[sudo] password for andreiprokof: 
+useradd: user 'DevOps' already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ echo 'DevOps ALL=(ALL:ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/DevOps
+[?2004lDevOps ALL=(ALL:ALL) NOPASSWD: ALL
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo apt update
+[?2004l[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Working][0m            Get:2 http://ru.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+[33m0% [2 InRelease 6671 B/119 kB 6%][0m[33m0% [2 InRelease 83.6 kB/119 kB 70%][0m[33m                                   0% [Waiting for headers][0m                        Get:3 http://ru.archive.ubuntu.com/ubuntu jammy-backports InRelease [107 kB]
+[33m0% [3 InRelease 1079 B/107 kB 1%][0m[33m0% [3 InRelease 59.8 kB/107 kB 56%][0m[33m                                   0% [Working][0m            Get:4 http://ru.archive.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+[33m0% [4 InRelease 9467 B/110 kB 9%][0m[33m0% [4 InRelease 72.4 kB/110 kB 66%][0m[33m                                   0% [Working][0m            Get:5 http://ru.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [887 kB]
+[33m0% [5 Packages 1079 B/887 kB 0%][0m[33m24% [5 Packages 61.2 kB/887 kB 7%][0m[33m                                  38% [Working]=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 08:42:51 2023 from 192.168.1.157
+sudo useradd DevOps
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo useradd DevOps
+[?2004l[sudo] password for andreiprokof: 
+echo 'DevOps ALL=(ALL:ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/DevOps
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo apt update
+[?2004l[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Working][0m            Get:2 http://ru.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+[33m0% [2 InRelease 1079 B/119 kB 1%][0m[33m0% [2 InRelease 91.9 kB/119 kB 77%][0m[33m                                   0% [Waiting for headers][0m                        Get:3 http://ru.archive.ubuntu.com/ubuntu jammy-backports InRelease [107 kB]
+[33m0% [3 InRelease 1079 B/107 kB 1%][0m[33m0% [3 InRelease 62.6 kB/107 kB 59%][0m[33m                                   0% [Working][0m            Get:4 http://ru.archive.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+[33m0% [4 InRelease 5273 B/110 kB 5%][0m[33m                                 0% [Working][0m[33m0% [Waiting for headers][0m[33m23% [Waiting for headers][0m                         Get:5 http://ru.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [886 kB]
+[33m23% [5 Packages 19.3 kB/886 kB 2%][0m[33m                                  38% [Working][0m             Get:6 http://ru.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [195 kB]
+[33m40% [6 Translation-en 87.6 kB/195 kB 45%][0m[33m40% [5 Packages store 0 B] [6 Translation-en 87.6 kB/195 kB 45%][0m[33m                                                                42% [5 Packages store 0 B] [Waiting for headers][0m                                                Get:7 http://ru.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [609 kB]
+[33m42% [5 Packages store 0 B] [7 Packages 2991 B/609 kB 0%][0m=========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 10:25:20 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo useradd DevOps
+[?2004l[sudo] password for andreiprokof: 
+useradd: user 'DevOps' already exists
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ echo 'DevOps ALL=(ALL:ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers.d/DevOps
+[?2004lDevOps ALL=(ALL:ALL) NOPASSWD: ALL
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo apt update
+[?2004l[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Working][0m            Get:2 http://ru.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+[33m0% [2 InRelease 12.3 kB/119 kB 10%][0m[33m                                   0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:3 http://ru.archive.ubuntu.com/ubuntu jammy-backports InRelease [107 kB]
+[33m0% [3 InRelease 0 B/107 kB 0%][0m[33m0% [3 InRelease 61.2 kB/107 kB 57%][0m[33m                                   0% [Working][0m            Get:4 http://ru.archive.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+[33m0% [4 InRelease 1079 B/110 kB 1%][0m[33m                                 0% [Working][0m            Get:5 http://ru.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [886 kB]
+[33m0% [Waiting for headers][0m[33m0% [6 Translation-en store 0 B] [Waiting for headers][0m[33m                                                     0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:5 http://ru.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [886 kB]
+[33m0% [5 Packages 1079 B/886 kB 0%][0m[33m28% [5 Packages 170 kB/886 kB 19%][0m[33m                                  =========================================================================

@@ -1,0 +1,70 @@
+#!/bin/bash
+#Включение отладки bash:
+
+#запрос пароля для sudo
+echo "введите логин от учетной записи"
+read -a USER
+echo "Введите пароль от учетной записи"
+read -a PASSWD
+
+echo "Программа выполяется.."
+
+#Файл логов:
+LOG="user_postgresql.log"
+
+#Список хостов:
+HOSTS_B="192.168.1.171"
+HOSTS_C="192.168.1.172"
+
+time=$(date +%s)
+
+#Команды для expect:
+COMM="
+
+set timeout 1
+
+#подключаемся к удаленному серверу
+spawn ssh $USER@$HOSTS_B
+
+#установка postgresql
+expect \"*>\"
+send \"sudo -u postgres psql\r\"
+send \"$PASSWD\r\"
+expect \"*#\"
+send \"create user developer PASSWORD '12345';\r\"
+expect \"*#\"
+send \"\\134c myapp\r\"
+expect \"*#\"
+send \"create table table1 (Id SERIAL PRIMARY KEY, FirstName CHARACTER VARYING(30));\r\"
+expect \"*#\"
+send \"grant select on table1 to developer;\r\"
+expect \"*#\"
+send \"grant update on table1 to developer;\r\"
+expect \"*#\"
+send \"\\134c myauth\r\"
+expect \*#\"
+send \"create table table2 (Id SERIAL PRIMARY KEY, FirstName CHARACTER VARYING(30));\r\"
+expect \*#\"
+send \"grant select on table2 to developer;\r\"
+expect \*#\"
+send \"\134q\r\"
+
+
+
+
+#Завершение выполнения expect:
+expect eof
+"
+
+#Запуск expect с набором команд:
+expect -c "$COMM" >> $LOG
+
+echo "время затрачено:"
+echo $(($(date +%s)-$time))
+
+#Вывод разделителя:
+echo ========================================================================= >> $LOG
+
+
+
+

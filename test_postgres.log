@@ -1,0 +1,37 @@
+spawn ssh -o IdentitiesOnly=yes andreiprokof@192.168.1.172
+andreiprokof@192.168.1.172's password: 
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Thu Feb 16 06:13:55 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@c: ~[01;32mandreiprokof@c[00m:[01;34m~[00m$ sudo apt install postgresql-client-14 -y
+[?2004l[sudo] password for andreiprokof: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+postgresql-client-14 is already the newest version (14.6-0ubuntu0.22.04.1).
+The following packages were automatically installed and are no longer required:
+  libcommon-sense-perl libjson-perl libjson-xs-perl libllvm14 libsensors-config libsensors5 libtypes-serialiser-perl libxslt1.1 logrotate
+  postgresql-common ssl-cert sysstat
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 52 not upgraded.
+[?2004h]0;andreiprokof@c: ~[01;32mandreiprokof@c[00m:[01;34m~[00m$ psql -Udeveloper -h192.168.1.171  -dmyapp
+[?2004lPassword for user developer: 
+psql (14.6 (Ubuntu 14.6-0ubuntu0.22.04.1))
+SSL connection (protocol: TLSv1.3, cipher: TLS_AES_256_GCM_SHA384, bits: 256, compression: off)
+Type "help" for help.
+
+[?2004hmyapp=> select version ();
+[?2004l                                                               version                                                                
+--------------------------------------------------------------------------------------------------------------------------------------
+ PostgreSQL 14.6 (Ubuntu 14.6-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, 64-bit
+(1 row)
+
+[?2004hmyapp=> =========================================================================

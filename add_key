@@ -1,0 +1,69 @@
+#!/bin/bash
+#Включение отладки bash:
+
+#запрашиваем логин и пароль для входа на сервер
+echo "Введите логин для входа на сервер:"
+read -a USER
+echo "Введите пароль для входа"
+read -a PASSWD
+echo "Программа выполяется.."
+
+set timeout 1
+
+#Файл логов:
+LOG="ssh_conn.log"
+
+#Список хостов:
+HOSTS_B="192.168.1.171"
+HOSTS_C="192.168.1.172"
+
+#время выполнения
+time=$(date +%s)
+
+#Команды для expect:
+COMM="
+
+#Время ожидание expect
+set timeout 1 
+
+
+#копируем ssh ключ на удаленный сервер
+spawn ssh-copy-id $USER@$HOSTS_B
+expect \"*password:\" 
+send \"$PASSWD\r\"
+
+#подключаемся к удаленному серверу
+spawn ssh $USER@$HOSTS_B
+
+#отключаем доступ по паролю используя ssh
+expect \"*>\"
+send \"sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config\r\"
+expect \"*password:\" 
+send \"$PASSWD\r\"
+expect \"*>\"
+send \"systemctl restart ssh\r\"
+expect \"Password:\" 
+send \"$PASSWD\r\"
+
+
+
+
+
+#Завершение выполнения expect:
+expect eof
+"
+
+#Запуск expect с набором команд:
+expect -c "$COMM" >> $LOG
+
+
+echo "затраченно времени:"
+echo $(($(date +%s)-$time))
+
+
+
+#Вывод разделителя:
+echo ========================================================================= >> $LOG
+
+
+

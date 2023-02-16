@@ -1,0 +1,201 @@
+spawn ssh-copy-id andreiprokof@192.168.1.171
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 13:37:41 2023 from 192.168.1.157
+sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004l[sudo] password for andreiprokof: 
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh-copy-id andreiprokof@192.168.1.171
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 15:03:37 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004l[sudo] password for andreiprokof: 
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ 7808228
+[?2004l-bash: 7808228: command not found
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh-copy-id andreiprokof@192.168.1.171
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 15:04:43 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004l[sudo] password for andreiprokof: 
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh-copy-id andreiprokof@192.168.1.171
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 15:05:34 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004l[sudo] password for andreiprokof: 
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh-copy-id andreiprokof@192.168.1.171
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 15:06:23 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004l[sudo] password for andreiprokof: 
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ systemctl restart ssh
+[?2004l[1;31m==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+[0mAuthentication is required to restart 'ssh.service'.
+Authenticating as: andreiprokof
+Password: =========================================================================
+spawn ssh-copy-id andreiprokof@192.168.1.171
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 19:47:27 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004l[sudo] password for andreiprokof: 
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ systemctl restart ssh
+[?2004l[1;31m==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+[0mAuthentication is required to restart 'ssh.service'.
+Authenticating as: andreiprokof
+Password: =========================================================================
+spawn ssh-copy-id andreiprokof@192.168.1.171
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Tue Feb 14 19:57:38 2023 from 192.168.1.157
+sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004l[sudo] password for andreiprokof: 
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ systemctl restart ssh
+[?2004l[1;31m==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+[0mAuthentication is required to restart 'ssh.service'.
+Authenticating as: andreiprokof
+Password: =========================================================================
+spawn ssh-copy-id andreiprokof@192.168.1.171
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 08:37:00 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004l[sudo] password for andreiprokof: 
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ systemctl restart ssh
+[?2004l[1;31m==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+[0mAuthentication is required to restart 'ssh.service'.
+Authenticating as: andreiprokof
+Password: =========================================================================
+spawn ssh-copy-id andreiprokof@192.168.1.171
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 10:00:55 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004l[sudo] password for andreiprokof: 
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ systemctl restart ssh
+[?2004l[1;31m==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+[0mAuthentication is required to restart 'ssh.service'.
+Authenticating as: andreiprokof
+Password: =========================================================================
+spawn ssh-copy-id andreiprokof@192.168.1.171
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Wed Feb 15 12:00:03 2023 from 192.168.1.172
+sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+[?2004l[sudo] password for andreiprokof: 
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ systemctl restart ssh
+[?2004l[1;31m==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+[0mAuthentication is required to restart 'ssh.service'.
+Authenticating as: andreiprokof
+Password: 
+[1;31m==== AUTHENTICATION COMPLETE ===
+[0m[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
