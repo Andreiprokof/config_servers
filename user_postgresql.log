@@ -479,3 +479,42 @@ Type "help" for help.
 [?2004lGRANT
 [?2004hmyauth=# \q
 [?2004l[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
+spawn ssh andreiprokof@192.168.1.171
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Fri Feb 17 06:16:14 2023 from 192.168.1.157
+[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ sudo -u postgres psql
+[?2004l[sudo] password for andreiprokof: 
+could not change directory to "/home/andreiprokof": Permission denied
+create user developer PASSWORD '12345';
+psql (14.6 (Ubuntu 14.6-0ubuntu0.22.04.1))
+Type "help" for help.
+
+[?2004hpostgres=# create user developer PASSWORD '12345';
+[?2004lERROR:  role "developer" already exists
+[?2004hpostgres=# \c myapp
+[?2004lYou are now connected to database "myapp" as user "postgres".
+[?2004hmyapp=# create table table1 (Id SERIAL PRIMARY KEY, FirstName CHARACTER VARYING(30));
+[?2004lERROR:  relation "table1" already exists
+[?2004hmyapp=# grant select on ALL TABLES IN SCHEMA public to developer;
+[?2004lgrant update on ALL TABLES IN SCHEMA public to developer;
+GRANT
+[?2004hmyapp=# grant update on ALL TABLES IN SCHEMA public to developer;
+[?2004l\c myauth
+GRANT
+[?2004hmyapp=# \c myauth
+[?2004lYou are now connected to database "myauth" as user "postgres".
+[?2004hmyauth=# create table table2 (Id SERIAL PRIMARY KEY, FirstName CHARACTER VARYING(30));
+[?2004lERROR:  relation "table2" already exists
+[?2004hmyauth=# grant select on ALL TABLES IN SCHEMA public to developer;
+[?2004lGRANT
+[?2004hmyauth=# \q
+[?2004l[?2004h]0;andreiprokof@b: ~[01;32mandreiprokof@b[00m:[01;34m~[00m$ =========================================================================
